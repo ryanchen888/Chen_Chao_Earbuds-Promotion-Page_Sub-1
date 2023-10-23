@@ -1,0 +1,20 @@
+<model-viewer src="earbuds_1.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.1553309522259991m 196.75075960981792m 355.6584497632459m" data-normal="0.21885651281984841m 0.9730279781878786m 0.07292722715107716m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Multi-function control button</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="39.178813729806954m 70.6227131746494m 339.9483671265645m" data-normal="0.7379483136422101m -0.3541326360979166m -0.5744757283323281m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Intelligent rotating axis</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="29.404639978382665m 27.178838156281856m 292.8381266495884m" data-normal="0.9769237824227752m -0.0661242855688698m -0.20309481085144687m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Comfortable noise-canceling earplugs</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.17319318985299503m 130.1636845325197m 207.60880965993317m" data-normal="4.278030866133517e-17m -0.9370006123689325m -0.34932771493290576m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Charging contacts</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
